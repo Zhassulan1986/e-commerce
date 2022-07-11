@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* styling by Zada */
 body{
         font-family: "Montserrat", sans-serif;
@@ -95,7 +100,41 @@ body{
         }
     }
 /*--Nurlan header--*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
 
+.header-container h1 a {
+    font-size: 23px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.header-container button {
+    width: 50px;
+    height: 80px;
+    background-color: black;
+    border: none;
+    font-size: 23px;
+}
+
+.header-container button:hover {
+    background-color: #f1f1f1;
+}
+
+@media screen and (min-width:700px) {
+    .header-container {
+        height: 0;
+        overflow: hidden;
+    }
+}
 /*Nurlan End*/
 /*Akzhol cart + main photo*/
 
