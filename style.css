@@ -1,8 +1,8 @@
 /* styling by Zada */
-body{
-        font-family: "Montserrat", sans-serif;
-    }
-    img{
+
+        
+    
+    .container-card img{
         opacity: 1;
         width:100%;
         height: auto;
@@ -14,6 +14,7 @@ body{
         backface-visibility: hidden;
     }
     .container-card{
+        font-family: "Montserrat", sans-serif;
         letter-spacing:1.5px;
         margin:15px;
     }
