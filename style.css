@@ -1,3 +1,99 @@
+/* styling by Zada */
+body{
+        font-family: "Montserrat", sans-serif;
+    }
+    img{
+        opacity: 1;
+        width:100%;
+        height: auto;
+        margin-bottom:10px;
+    }
+    .container-card .col img{
+        filter: brightness(50%);
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .container-card{
+        letter-spacing:1.5px;
+        margin:15px;
+    }
+    .container-card .col{
+        margin-bottom: 10px;
+    }
+    .container-card .col p,b{
+        margin:0;
+    }
+    .bg-image{
+        background-image: url("https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans.jpg");
+        background-size: cover;
+        height:350px;
+        display:flex;
+        flex-direction: column;
+        color:white;
+    }
+    .bg-image h2{
+        font-size: 64px;
+    }
+    .bg-image button{
+        background-color: black;
+        color:white;
+        padding:10px 15px;
+        cursor: pointer;
+        border:0;
+        letter-spacing:3px;
+        
+    }
+    .bg-image button:hover{
+        background-color: lightgray;
+        color:black;
+    }
+    .container-card .span{
+        position: relative;
+    }
+    .container-card .btn1{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
+    .container-card .col:hover .btn1{
+        opacity:1;
+    
+    }
+    .span button{
+        background-color: black;
+        color:white;
+        border:0;
+        padding:5px 15px;
+    }
+    .span button:hover{
+        background-color: lightgray;
+        color:black;
+    }
+    .span span{
+        position:absolute;
+        background-color: black;
+        top:0;
+        color:white;
+        letter-spacing: 3px;
+        padding: 1px 10px;
+    }
+    .span img{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    @media screen and (min-width:700px) {
+        .bg-image{
+            height:500px;
+        }
+    }
 /*--Nurlan header--*/
 
 /*Nurlan End*/
@@ -223,3 +319,4 @@ footer a:hover{
 /*Mika sidebar*/
 
 /*Mika sidebar ends*/
+main
