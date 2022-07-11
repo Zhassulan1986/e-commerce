@@ -8,7 +8,61 @@
 
 /*Zada cards end*/
 /*Zhassulan Subscribe+footer*/
-
+form{
+    background-color: black;
+    color: white;
+}
+text, h2{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    letter-spacing: 3px;
+}
+text, p{
+    font-size: 30px;
+padding-left: 30px;
+}
+.mail{
+    display: flex;
+ justify-content: flex-start;
+ margin-left: 10px;
+    }
+    .email{
+        padding: 15px;
+        width: 95%;
+        font-size: 20px;
+    }
+ 
+    button{
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        padding: 15px;
+        margin-top: 20px;
+       margin-left: 10px;
+      margin-bottom: 20px;
+      width: 200px;
+    }
+    button:hover{
+        background-color: grey;
+    color: black;
+}
+footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 30px;
+margin-top: 20px;
+font-size: 20px;
+}
+.seytech{
+    color: white;
+    text-decoration: underline;
+}
+.seytech:hover{
+    text-decoration: underline;
+    color:grey;
+}
 /*Zhassulan ends*/
 /*Aisulu about*/
 
