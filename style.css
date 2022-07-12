@@ -138,7 +138,46 @@
 }
 /*Nurlan End*/
 /*Akzhol cart + main photo*/
+@import url('https://klubok.club/upload/medialibrary/db7/db756be3eeefe8228fd1184e1e293e6b.jpg');
 
+main{
+    background-image: url('https://klubok.club/upload/medialibrary/db7/db756be3eeefe8228fd1184e1e293e6b.jpg');
+    background-size: 100%;
+    width: 90%;
+    height: 50vh;
+    position: relative;
+   
+}
+.mainpic {
+   position: absolute;
+   top: 25px;
+   left: 40px;
+}
+  
+h2 {
+
+    font-size: 50px;
+    color: white;
+
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+
+ a {
+     background-color:#000;
+     text-decoration:none ;
+     padding: 14px 25px;
+     color: #fff;
+     font-size: 18px;
+ }
+a:hover {
+    background-color: gray;
+}
+h2, h3, a{
+  
+}
 /*Akzho end*/
 /*Zada cards*/
 
