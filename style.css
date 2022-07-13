@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.main{
+    max-width: 900px;
+    margin:auto;
+    padding: auto;
+}
 /*--Nurlan header--*/
 .header-container {
 display: flex;
@@ -45,10 +50,12 @@ background-color: #f1f1f1;
 
 main{
     background-image: url('https://klubok.club/upload/medialibrary/db7/db756be3eeefe8228fd1184e1e293e6b.jpg');
-    background-size: 100%;
-    width: 90%;
+    background-size: cover;
+    width: 97%;
+    margin:auto;
     height: 50vh;
     position: relative;
+    
    
 }
 .mainpic {
@@ -57,26 +64,32 @@ main{
    left: 40px;
 }
   
-h2 {
-
-    font-size: 50px;
+.akzhol-h2 {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top:0;
+    margin-bottom: 20px;
+    font-size: 60px;
     color: white;
 
 }
-h3{
-    font-size: 30px;
+.akzhol-h3{
+    font-size: 35px;
+    font-weight: 400;
     color: white;
+    margin-bottom: 30px
 }
 
- a {
+.akzhol-a {
      background-color:#000;
      text-decoration:none ;
      padding: 14px 25px;
      color: #fff;
      font-size: 18px;
  }
-a:hover {
-    background-color: gray;
+.akzhol-a:hover {
+    background-color: lightgray;
+    color: black;
 }
 /*Akzho end*/
 /*Zada cards*/
@@ -153,19 +166,20 @@ a:hover {
 
 /*Zada cards end*/
 /*Zhassulan Subscribe+footer*/
-form{
+.form-subs{
     background-color: black;
     color: white;
 }
-text, h2{
-    font-size: 50px;
+text, .subs-h2{
+    font-size: 40px;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-bottom: 10px;;
+    padding-left: 10px;
     letter-spacing: 3px;
 }
-text, p{
-    font-size: 30px;
-padding-left: 30px;
+text, .subs-p{
+    font-size: 16px;
+    padding-left: 10px;
 }
 .mail{
     display: flex;
@@ -173,46 +187,34 @@ padding-left: 30px;
  margin-left: 10px;
     }
     .email{
-        padding: 15px;
-        width: 95%;
-        font-size: 20px;
+        padding: 8px;
+        width: 100%;
+        margin:auto;
+        font-size: 14px;
     }
  
-    button{
-        font-size: 20px;
+    .btn-subs{
+        font-size: 14px;
         color: white;
         background-color: red;
-        padding: 15px;
-        margin-top: 20px;
+        padding: 10px;
+        margin-top: 10px;
        margin-left: 10px;
-      margin-bottom: 20px;
-      width: 200px;
+      margin-bottom: 40px;
+      width: 120px;
+      height: 45px;;
     }
-    button:hover{
+    .btn-subs:hover{
         background-color: grey;
     color: black;
 }
-footer{
-   background-color: black;
-   color: white;
-   text-align: center;
-   padding: 30px;
-margin-top: 20px;
-font-size: 20px;
-}
-.seytech{
-    color: white;
-    text-decoration: underline;
-}
-.seytech:hover{
-    text-decoration: underline;
-    color:grey;
-}
+
 /*Zhassulan ends*/
+
 /*Aisulu about*/
 
 about{
-    max-width: 900px;
+    /* max-width: 900px; */
     margin:auto;
     padding: 64px 0;
     width: 100%;
@@ -227,8 +229,13 @@ about{
     line-height: 1.5;
 }
 
-h3{
+.aish3{
     font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.questions{
+    font-size: 12px
 }
 
 .contact input{
@@ -236,23 +243,26 @@ h3{
     margin-left: 20px;
     border: 1px solid lightgrey;
     text-align:start;
+    width: 90%;
 }
 
-form{
-    width: 90%;
+.form-contact{
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
 
-.btn{
-    margin: 8px 0 8px 20px;
+.btn-send{
+    margin: 8px 0 8px 15px;
     background-color: black;
     color: white;
     height: 33px;
+    padding: 0;  
 }
 
-.btn:hover{
+
+.btn-send:hover{
     background-color: rgb(209, 209, 209);
     color: black;
     border: none;
@@ -270,7 +280,7 @@ ul li{
 .about h3{
     padding-left: 40px;
 }
-.about a{
+.about .about-a{
     color: black;
 }
 
@@ -295,7 +305,7 @@ ul li{
     font-size: 16px;
 }
 
-.fa:hover{
+.icon .fa:hover{
     color: rgb(153, 153, 153);
 }
 
@@ -347,12 +357,17 @@ footer a:hover{
         margin-right: 0;
         margin-left: 0;
     }
-    .contact form input, .btn{
+    .contact form input, .btn-send{
         padding-right: 0;
         padding-left: 0;
         margin-right: 0;
         margin-left: 15px;
     }
+
+    .contact .btn-send{
+        width: 90%;
+    }
+
     .about h3, ul{
         padding-left:0;
     }
