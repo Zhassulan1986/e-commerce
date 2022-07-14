@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+    .top{
+        width: 20%;
+    }
 .main{
     max-width: 900px;
     margin:auto;
